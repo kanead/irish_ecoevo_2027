@@ -14,11 +14,18 @@
   .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0}
   .brand{font-weight:750;text-decoration:none;color:var(--ink);font-size:1.05rem}
   nav{display:flex;flex-wrap:wrap;gap:16px}nav a{text-decoration:none;color:var(--ink);font-size:.92rem}
-  .hero{padding:84px 0;color:white;background:linear-gradient(100deg,rgba(12,49,45,.88),rgba(23,102,90,.42)),url("hero.jpg") center 45%/cover no-repeat,#214b44;min-height:390px;display:flex;align-items:center}
+  .hero{padding:84px 0;color:white;background:url("hero.jpg") center 45%/cover no-repeat,#214b44;min-height:390px;display:flex;align-items:center}
   .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700}
   h1,h2,h3{line-height:1.18}h1{max-width:850px;font-size:clamp(2.3rem,6vw,4.5rem);margin:12px 0;letter-spacing:-.035em}
   .subtitle{max-width:700px;font-size:1.2rem;color:#edf7f3}
   .facts{display:flex;flex-wrap:wrap;gap:10px 24px;margin:26px 0}
+  .text-blue{
+  display:inline-block;
+  background:#1d4ed8;      /* blue background */
+  color:#fff;
+  padding:12px 18px;       /* space between text and the edge of the blue box */
+  border-radius:6px;
+}
   .button{display:inline-block;padding:12px 18px;border-radius:5px;background:#fff;color:var(--ink);text-decoration:none;font-weight:750}
   section{padding:54px 0}section:nth-of-type(even){background:#f1f6f3}
   h2{font-size:clamp(1.7rem,3vw,2.4rem);margin:0 0 14px;letter-spacing:-.025em}
@@ -57,11 +64,16 @@
         <!-- EDIT: main conference title -->
         <h1>5th Irish Ecology and Evolution Biennial Conference</h1>
         <!-- EDIT: one-sentence description -->
-        <p class="subtitle">Usher in the New Year by celebrating Irish ecology in all its glorious diversity over two days.</p>
-        <div class="facts">
+          <p class="text-blue">
+      Usher in the New Year by celebrating Irish ecology in all its glorious diversity over two days.
+      </p>
+
+        <p class="text-blue">
+
           <span>📅 Thursday 7th & Friday 8th January</span>
           <span>📍 O'Brien Centre for Science, University College Dublin</span>
           <span>🌿 IN-PERSON</span>
+          </p>
         </div>
         <!-- EDIT: replace # with your registration URL -->
         <a class="button" href="https://www.eventbrite.ie/" id="hero-register">Registration details →</a>
