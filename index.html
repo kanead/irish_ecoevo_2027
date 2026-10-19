@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOUR CONFERENCE NAME</title>
+  <meta name="description" content="Information about 5th Irish Ecology and Evolution Biennial Conference.">
+  <style>
+  :root{--ink:#18332f;--green:#17665a;--pale:#edf4f1;--paper:#fbfcfa;--muted:#5c6b68;--line:#dce6e1}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  a{color:var(--green)}.wrap{width:min(1100px,calc(100% - 36px));margin:0 auto}
+  header{background:#fff;border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0}
+  .brand{font-weight:750;text-decoration:none;color:var(--ink);font-size:1.05rem}
+  nav{display:flex;flex-wrap:wrap;gap:16px}nav a{text-decoration:none;color:var(--ink);font-size:.92rem}
+  .hero{padding:84px 0;color:white;background:linear-gradient(100deg,rgba(12,49,45,.88),rgba(23,102,90,.42)),url("hero.jpg") center 45%/cover no-repeat,#214b44;min-height:390px;display:flex;align-items:center}
+  .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;font-weight:700}
+  h1,h2,h3{line-height:1.18}h1{max-width:850px;font-size:clamp(2.3rem,6vw,4.5rem);margin:12px 0;letter-spacing:-.035em}
+  .subtitle{max-width:700px;font-size:1.2rem;color:#edf7f3}
+  .facts{display:flex;flex-wrap:wrap;gap:10px 24px;margin:26px 0}
+  .button{display:inline-block;padding:12px 18px;border-radius:5px;background:#fff;color:var(--ink);text-decoration:none;font-weight:750}
+  section{padding:54px 0}section:nth-of-type(even){background:#f1f6f3}
+  h2{font-size:clamp(1.7rem,3vw,2.4rem);margin:0 0 14px;letter-spacing:-.025em}
+  .intro{max-width:760px;color:var(--muted);margin-top:0}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+  .card{padding:22px;background:white;border:1px solid var(--line);border-radius:9px}
+  .card h3{margin-top:0;margin-bottom:8px}.tag{display:inline-block;background:var(--pale);padding:4px 9px;border-radius:20px;font-size:.8rem}
+  .speaker-photo{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;background:#edf4f1;display:block;margin-bottom:14px}
+  .schedule{width:100%;border-collapse:collapse;background:white}.schedule th,.schedule td{padding:13px 15px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.schedule th{background:var(--pale)}
+  .two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:start}
+  .notice,.pdf-panel{padding:22px;background:white;border:1px solid var(--line);border-radius:9px}
+  .notice{background:var(--pale);border-left:4px solid var(--green)}
+  footer{background:#153a34;color:#eaf3ef;padding:28px 0}footer a{color:white}
+  @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.grid,.two-col{grid-template-columns:1fr}.hero{padding:58px 0;min-height:340px}.schedule th,.schedule td{padding:10px 8px;font-size:.92rem}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <!-- EDIT: conference name in the next line -->
+      <a class="brand" href="#home">5th Irish Ecology and Evolution Biennial Conference</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#programme">Programme</a>
+        <a href="#venue">Venue</a>
+        <a href="#registration">Registration</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <div class="eyebrow">Academic conference · 2027</div>
+        <!-- EDIT: main conference title -->
+        <h1>5th Irish Ecology and Evolution Biennial Conference</h1>
+        <!-- EDIT: one-sentence description -->
+        <p class="subtitle">Usher in the New Year by celebrating Irish ecology in all its glorious diversity over two days.</p>
+        <div class="facts">
+          <span>📅 Thursday 7th & Friday 8th January</span>
+          <span>📍 O'Brien Centre for Science, University College Dublin</span>
+          <span>🌿 IN-PERSON</span>
+        </div>
+        <!-- EDIT: replace # with your registration URL -->
+        <a class="button" href="https://www.eventbrite.ie/" id="hero-register">Registration details →</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap two-col">
+        <div>
+          <h2>Local Organising Committee</h2>
+          <p>Tancredi Caruso, Dara Stanley, Darren O’Connell, Jon Yearsley, Adam Kane.</p>
+        </div>
+        <aside class="notice">
+          <strong>Key information</strong>
+          <p><b>Dates:</b> 7th January - 8th January </p>
+          <p><b>Venue:</b> O'Brien Centre for Science, UCD</p>
+          <p><b>Abstract deadline:</b> 1st November 2026</p>
+          <p><b>Registration deadline:</b> 7th January 2027</p>
+        </aside>
+      </div>
+    </section>
+
+
+
+    <section id="speakers"><div class="wrap">
+    <h2>Plenary speakers</h2><p class="intro"></p>
+    <div class="grid">
+    <article class="card">
+    <!-- Upload a photo to the repository named plenary-speaker-1.jpg -->
+    <img class="speaker-photo" src="speaker1.jpg" alt="Portrait of plenary speaker one">
+    <span class="tag">Plenary speaker</span><h3>Owen Lewis</h3><p><b>University of Oxford</b></p><p>Professor Owen Lewis is Professor of Ecology at the University of Oxford, specialising in community ecology, entomology and conservation biology. His research investigates the processes maintaining and threatening biodiversity, with particular emphasis on tropical rainforests, insect food webs, plant–herbivore interactions, and how land-use change and climate change affect biodiversity and ecosystem functioning..</p><a href="https://www.biology.ox.ac.uk/people/owen-lewis">Speaker profile</a>
+    </article>
+    <article class="card">
+    <!-- Upload a photo to the repository named plenary-speaker-2.jpg -->
+    <img class="speaker-photo" src="speaker2.jpg" alt="Portrait of plenary speaker two">
+    <span class="tag">Plenary speaker</span><h3>Catherine Farrell</h3><p><b>Trinity College Dublin</b></p><p>Dr. Catherine Farrell is Assistant Professor of Business and Nature at Trinity Business School, Trinity College Dublin. A specialist in peatland restoration and nature conservation, her research explores natural capital accounting, nature-based solutions, and nature finance. She works with businesses, policymakers, and communities to develop credible strategies that support biodiversity and restoration.</p><a href="https://www.tcd.ie/business/people/faculty-professors/farrec23/">Speaker profile</a>
+    </article>
+    </div></div></section>
+
+
+    <section id="programme">
+      <div class="wrap">
+        <h2>Programme</h2>
+        <p class="intro">Packed schedule including plenary speakers, flash talks, posters and networking sessions.</p>
+        <div style="overflow-x:auto">
+          <table class="schedule">
+        </table>
+        </div>
+        <p><a href="programme.pdf">Download the full programme (PDF)</a> <!-- EDIT: replace # with PDF link or remove this line --></p>
+      </div>
+    </section>
+
+    <section id="venue">
+  <div class="wrap">
+    <h2>Venue and travel</h2>
+    <p>
+      The conference will take place at the O'Brien Centre
+      for Science, University College Dublin, Belfield, Dublin 4.
+    </p>
+
+    <div style="border-radius: 9px; overflow: hidden;
+                border: 1px solid #dce6e1;">
+      <iframe
+        title="Map showing the O'Brien Centre for Science at UCD"
+        width="100%"
+        height="400"
+        style="border: 0; display: block;"
+        loading="lazy"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-6.235%2C53.303%2C-6.214%2C53.314&layer=mapnik&marker=53.3083%2C-6.22445">
+      </iframe>
+    </div>
+
+    <p>
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=O%27Brien+Centre+for+Science%2C+UCD%2C+Dublin"
+        target="_blank"
+        rel="noopener noreferrer">
+        Get directions to UCD on Google Maps →
+      </a>
+    </p>
+  </div>
+</section>
+
+    <section id="registration">
+      <div class="wrap two-col">
+        <div>
+          <h2>Registration</h2>
+          <p class="intro">Open to biologists of all stripes working in ecology and evolution, register on <a href="https://www.eventbrite.ie/">eventbrite</a>.</p>
+          <p><b>Registration deadline:</b> ADD DEADLINE</p>
+          <!-- EDIT: replace # with your Google Form or booking page URL -->
+          <a class="button" href="#">Register for the conference →</a>
+        </div>
+        <aside class="notice">
+          <strong>Questions?</strong>
+          <p>Email the organising team at <a href="mailto:irishecologicalassociation@gmail.com">irishecologicalassociation@gmail.com</a>.</p>
+          <p>For abstract submissions, <a href="https://docs.google.com/forms/d/e/1FAIpQLSfio9hZQsxN7vgmV0Bk_uFIfwgu3rBFY2Og3V8XuWA3wGWQeQ/viewform">complete this google form</a>.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>5th Irish Ecology and Evolution Biennial Conference</strong>
+      <p>Hosted by UCD · 2026</p>
+      <p><a href="#home">Back to top ↑</a></p>
+    </div>
+  </footer>
+</body>
+</html>
